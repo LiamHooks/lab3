@@ -18,8 +18,8 @@ def print_n(s, n):
     print_n(s, n - 1)
 
 def run():
-  num = float(input("Enter an int: "))
-  print("sum is " + str(int(sum_n(num))) + ".")
+  num = int(input("Enter an int: "))
+  print("sum is " + str(sum_n(num)) + ".")
     
   thing = input("Enter a string: ")
   print_n(thing, num)
